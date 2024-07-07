@@ -5,7 +5,7 @@ const Calculating1 = () =>{
     const [value, setValue] = useState('');
     const [input, setInput] = useState('');
     const inp = (a) => {
-        setInput(a.target.value);
+        setInput(a.target.value); 
       };
       const calc = () => {
         setValue(eval(input));
